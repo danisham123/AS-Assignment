@@ -1,0 +1,20 @@
+Architecture Style Assignment
+
+Identify any three software frameworks from the web and identify the architecture style on it.
+1- Framework 1:
+	a. Name: Spring boot
+	b. Link: https://www.geeksforgeeks.org/spring-boot-architecture/
+	c. Style: Layered style
+d. Justification: Spring boot follows a layered architecture in which each layer communicates to other layers. Spring contains 4 layers including presentationlayer, Business layer, persistence layer and database layer
+
+2- Framework 2:
+a. Name: PushPin
+b. Link: https://ably.com/topic/pub-sub
+c. Style: Publish subscriber style
+d. Justification: PushPin is an open-source, real-time messaging framework that is suitable for sending real-time push notifications. It is implemented with WebSocket, HTTPstreaming, and HTTP long-polling services to push messages.
+
+3- Framework 3:
+a. Name:Flutter
+b. Link: https://docs.flutter.dev/resources/architectural-overview
+c. Style: Layered
+d. Justification: In Flutter, each layer has privileged access to the layer below, and every part of the framework level is designed to be optional and replaceable.
